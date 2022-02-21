@@ -17,7 +17,7 @@ Inspired by the 42 coding school exercise "micro_paint" (November 2021).
 fopen, fread, fscanf, fclose, write, malloc, calloc, realloc, free, memset, powf, sqrtf
 
 
-### Task
+### Description
 The aim of the exercise is to write a program that will read a "configuration-file" and display the result in the terminal.
 
 
@@ -43,7 +43,7 @@ TYPE X Y WIDTH HEIGHT CHAR
 * _HEIGHT_: The heighth of the rectangle (vertical). A float bigger than 0.
 * _CHAR_: The char used to draw the rectangle.
 
-#### Description
+#### Task
 The program must take one argument, the path to the "configuration-file".
 If the number of arguments doesn't meet these requirements the program must display "Error: argument" followed by a newline in STDOUT.
 
