@@ -3,8 +3,8 @@ ASCII art. A program that will read a configuration-file that contains rectangle
 
 ## Table of contents
 * [Introduction](#introduction)
-* [Requirements](#requirements)
-* [Launch](#launch)
+* [Prerequisites](#prerequisites)
+* [How to launch](#how-to-launch)
 * [Configuration-file](#configuration-file)
 * [Example](#example)
 * [Notes](#notes)
@@ -66,11 +66,11 @@ A point is defined as (Xa, Ya) and a rectangle by its top left corner (Xtl, Ytl)
 If ```Xtl <= Xa <= Xbr``` and ```Ytl <= Ya <= Ybr``` the point lies within the rectangle.
 
 
-## Requirements
+## Prerequisites
 * gcc
 
 
-## Launch
+## How to launch
 Compile the program as follows:
 
 ```
