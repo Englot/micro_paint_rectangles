@@ -32,7 +32,7 @@ WIDTH HEIGHT CHAR
 * _HEIGHT_: The vertical number of characters to use for the draw zone. An int that has to be bigger than 0 and smaller or equal to 300.
 * _CHAR_: The char used to fill the drawing zone (background).
 
-The following lines of the file define the circles to be drawn. The format is as follows:
+The following lines of the file define the rectangles to be drawn. The format is as follows:
 ```
 TYPE X Y WIDTH HEIGHT CHAR
 ```
@@ -62,7 +62,7 @@ Only the top left corner of the "pixels" will be used as point of reference to d
 A "pixel" with a top left corner with a distance bigger or equal than 1 from the border of a rectangle is not part of an empty rectangle. A "pixel" with a top left corner with a distance lower than 1 from the border of a rectangle is part of an empty rectangle.
 
 A point is defined as (Xa, Ya) and a rectangle by its top left corner (Xtl, Ytl) and its bottom right corner (Xbr, Ybr).
-If ```Xtl <= Xa <= Xbr and Ytl <= Ya <= Ybr```the point is in the rectangle.
+If ```Xtl <= Xa <= Xbr and Ytl <= Ya <= Ybr``` the point lies within the rectangle.
 
 
 ## Requirements
