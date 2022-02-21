@@ -62,7 +62,7 @@ Only the top left corner of the "pixels" will be used as point of reference to d
 A "pixel" with a top left corner with a distance bigger or equal than 1 from the border of a rectangle is not part of an empty rectangle. A "pixel" with a top left corner with a distance lower than 1 from the border of a rectangle is part of an empty rectangle.
 
 A point is defined as (Xa, Ya) and a rectangle by its top left corner (Xtl, Ytl) and its bottom right corner (Xbr, Ybr).
-If ```Xtl <= Xa <= Xbr and Ytl <= Ya <= Ybr``` the point lies within the rectangle.
+If ```Xtl <= Xa <= Xbr``` and ```Ytl <= Ya <= Ybr``` the point lies within the rectangle.
 
 
 ## Requirements
