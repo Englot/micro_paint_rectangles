@@ -1,2 +1,2 @@
 # micro_paint_rectangles
-Terminal Art. A program that will read a blueprint and print the result in the terminal using characters.
+ASCII art. A program that will read a configuration-file that contains rectangle parameters to produce a "painting" that is displayed in the terminal using characters.
