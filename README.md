@@ -7,6 +7,7 @@ ASCII art. A program that will read a configuration-file that contains rectangle
 * [Launch](#launch)
 * [Configuration-file](#configuration-file)
 * [Example](#example)
+* [Notes](#notes)
 
 
 ## Introduction
@@ -83,5 +84,9 @@ $ ./a.out examples/blueprint2
 
 
 ## Example
+_Screenshot of the terminal output using the example configuration-file "blueprint2":_
+
 ![grafik](https://user-images.githubusercontent.com/80413516/154947014-ba733665-b516-411c-a596-e69abcea32c1.png)
- _Screenshot of the terminal output using the example configuration-file "blueprint2"_
+
+ ## Notes
+As it is only a small execise, I did not bother to properly free allocated memory.
