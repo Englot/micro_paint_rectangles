@@ -81,7 +81,7 @@ Run it by giving it the path to the configuration-file as argument (in this case
 ```
 $ ./a.out examples/blueprint2
 ```
-
+For the required configuration-file format see: [Configuration-file](#configuration-file).
 
 ## Example
 _Screenshot of the terminal output using the example configuration-file "blueprint2":_
