@@ -6,7 +6,6 @@ ASCII art. A program that will read a configuration-file that contains rectangle
   * [Allowed functions](#allowed-functions)
   * [Description](#description)
   * [Configuration-file](#configuration-file)
-* [Approach](#approach)
 * [Prerequisites](#prerequisites)
 * [How to launch](#how-to-launch)
 * [Example](#example)
@@ -14,6 +13,7 @@ ASCII art. A program that will read a configuration-file that contains rectangle
 
 
 ## Introduction
+###### <p align="right">Next: [Prerequisites](#prerequisites)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
 ### Allowed functions
 fopen, fread, fscanf, fclose, write, malloc, calloc, realloc, free, memset, powf, sqrtf
 
@@ -62,14 +62,13 @@ TYPE X Y WIDTH HEIGHT CHAR
 * _HEIGHT_: The heighth of the rectangle (vertical). A float bigger than 0.
 * _CHAR_: The char used to draw the rectangle.
 
-## Approach
-Here I will explain, how I approached the problem.
-
 ## Prerequisites
+###### <p align="right">Next: [How to launch](#how-to-launch)&emsp;Previous: [Introduction](#introduction)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
 * gcc (```sudo apt-get install gcc```)
 
 
 ## How to launch
+###### <p align="right">Next: [Example](#example)&emsp;Previous: [Prerequisites](#prerequisites)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
 Compile the program as follows:
 
 ```
@@ -83,9 +82,11 @@ $ ./a.out examples/blueprint2
 For the required configuration-file format see: [Configuration-file](#configuration-file).
 
 ## Example
+###### <p align="right">Next: [Notes](#notes)&emsp;Previous: [How to launch](#how-to-launch)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
 _Screenshot of the terminal output using the example configuration-file "blueprint2":_
 
 ![grafik](https://user-images.githubusercontent.com/80413516/154947014-ba733665-b516-411c-a596-e69abcea32c1.png)
 
  ## Notes
+ ###### <p align="right">Previous: [Example](#example)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
 As it is only a small execise, I did not bother to properly free allocated memory.
